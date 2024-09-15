@@ -8,6 +8,7 @@ function App() {
 			const data = await res.json();
 			setPlants(data.plants);
 		};
+		// insert fly backend link to deploy non-locally  above
 		makeAPICall();
 	}, []);
 
